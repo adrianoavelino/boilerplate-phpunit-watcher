@@ -2,6 +2,11 @@
     "name": "adrianoavelino/boilerplate-phpunit-watcher",
     "description": "Boilerplate PHPUnit Watcher é um bolierplate que permite executar os teste de forma automática a cada alteração",
     "require": {},
+        "autoload": {
+              "psr-4": {
+                "TDD\\": "src"
+              }
+        },
     "require-dev": {
         "phpunit/phpunit": "^6.5"
     }
