@@ -1,0 +1,27 @@
+{
+  "name": "boilerplate-phpunit-watcher",
+  "version": "1.0.0",
+  "description": "Boilerplate PHPUnit Watcher é um bolierplate que permite executar os teste de forma automática a cada alteração.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianoavelino/boilerplate-phpunit-watcher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adrianoavelino/boilerplate-phpunit-watcher/issues"
+  },
+  "homepage": "https://github.com/adrianoavelino/boilerplate-phpunit-watcher#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-phpunit": "^0.24.1"
+  }
+}
