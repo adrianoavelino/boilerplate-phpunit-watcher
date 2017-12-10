@@ -1,10 +1,9 @@
 # Contributing
 
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
+1. Fork o projeto
+2. Crie uma nova branch: `git checkout -b nova-branch`
+3. Commit suas alterações: `git commit -m 'Adiciona alteração bla bla bla'`
+4. Envie sua branch para o seu fork: `git push origin nova-branch`
+5. Dentro do seu fork clique em pull request para enviar as suas alterações
 
-*Remember that we have a pre-push hook with steps that analyzes and prevents mistakes.*
-
-**After your pull request is merged**, you can safely delete your branch.
+> Obs: Se tiver alguma dúvida abra uma issue que podemos ajuda-lo ;D

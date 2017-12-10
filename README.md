@@ -1,87 +1,37 @@
 # Boilerplate PHPUnit Watcher
 
-Boilerplate PHPUnit Watcher é um bolierplate que permite executar os teste de forma automática a cada alteração.
+Boilerplate PHPUnit Watcher é um bolierplate que permite executar os teste com PHPUnit de forma automática a cada alteração nos arquivos `.php`
 
-## Getting Started
+## Requisitos
+- PHP instalado globalmente
+- composer
+- node
+- gulp instalado globalmente
+> OBS: Esse boilerplate foi testado somente no sistema operacional Linux com PHP 7.0.21 e composer 1.2.1 e node 8.4.0 com npm 5.5.1
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Instalação
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
+```bash
+git clone https://github.com/adrianoavelino/boilerplate-phpunit-watcher.git   
+cd boilerplate-phpunit-watcher
+npm install
+composer install
 ```
 
-And repeat
+## Executar os testes
 
-```
-until finished
-```
-One Paragraph of project description goes here
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
+```bash
+gulp
 ```
 
-### And coding style tests
+## Contribuição
 
-Explain what these tests test and why
+Por favor leia  [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-```
-Give an example
-```
+## Versionamento
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.comOne Paragraph of project description goes here/your/project/tags).
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+Nós usamos [SemVer](http://semver.org/) para versionamento. Para ver as versões disponíveis veja as [tags do projeto](https://github.com/adrianoavelino/boilerplate-phpunit-watcher/tags).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+O projeto é licenciado sob a MIT License - veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
