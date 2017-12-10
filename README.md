@@ -17,6 +17,24 @@ cd boilerplate-phpunit-watcher
 npm install
 composer install
 ```
+## Estrutura do projeto
+.   
+├── src     
+│   └── OlaMundo.php    
+├── tests   
+│   └── OlaMundoTest.php    
+└── vendor      
+├── composer.json   
+├── composer.lock   
+├── CONTRIBUTING.md     
+├── gulpfile.js     
+├── LICENSE.md  
+├── node_modules    
+├── package.json    
+├── package-lock.json   
+├── phpunit.xml     
+├── README.md   
+
 
 ## Executar os testes
 
