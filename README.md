@@ -26,7 +26,7 @@ gulp
 
 ## Contribuição
 
-Por favor leia  [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Por favor leia  [CONTRIBUTING.md](./CONTRIBUTING.md) para mais detalhes sobre como contribuir com o projeto.
 
 ## Versionamento
 
